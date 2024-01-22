@@ -1,0 +1,202 @@
+body {
+   margin: 0px;
+   color: black;
+   font-family: montserrat;
+   background: rebeccapurple;
+}
+
+a {
+   color: lightgreen;
+}
+
+header {
+   padding: 20px;
+   background: rebeccapurple;
+   height: 100vh;
+}
+
+.btna {
+   padding: 5px;
+   color: black;
+   text-decoration: none;
+   background: mediumslateblue;
+   border: 2px solid black;
+   border-radius: 5px;
+   transition: 0.3s ease;
+}
+
+.btna:hover {
+   color: white;
+   text-decoration: none;
+   background: black;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+
+.intro {
+   padding: 20px;
+   color: white;
+}
+
+header li {
+   display: inline;
+}
+
+header li a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.img {
+   width: 150px;
+   height: 150px;
+   background: url('received_7103704893044348.jpeg');
+   background-size: cover;
+   border-radius: 100%;
+}
+
+#Services {
+   line-height: 2em;
+   margin: 5px;
+}
+
+nav {
+   padding: 20px;
+   text-align: center;
+   word-spacing: 2em;
+}
+
+.box1 {
+   padding: 20px;
+   margin: 10px;
+   background: mediumpurple;
+}
+
+.box2 {
+   padding: 20px;
+   margin: 10px;
+   background: mediumpurple;
+   justify-content: space-around;
+}
+
+.box3 {
+   padding: 20px;
+   margin: 10px;
+   background: mediumpurple;
+}
+
+   .Name {
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      background: rebeccapurple;
+      border-radius: 20px
+   }
+   
+   .skills {
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      background: rebeccapurple;
+      border-radius: 20px
+   }
+   
+   .contacts {
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      background: rebeccapurple;
+      border-radius: 20px
+   }
+   
+   .address {
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      background: rebeccapurple;
+      border-radius: 20px
+   }
+
+.ign {
+   padding: 20px;
+   margin: 0px auto;
+   transform: translateY(25%);
+}
+
+.hire {
+   margin: 5px;
+   padding: 5px;
+}
+
+   .contact {
+      padding: 20px;
+      margin: 5px;
+      background: #DFEBF6;
+      border-radius: 20px
+   }
+
+footer {
+   padding: 20px;
+   background: #29353C;
+   text-align: center;
+   color: white;
+}
+
+@media (min-width: 500px) {
+   header {
+   padding: 20px;
+   background: #29353C;
+   height: 130vh;
+}
+   
+   header li a {
+      font-size: 20pt;
+   }
+   
+   .textcont {
+      font-size: 20pt;
+   }
+   
+   .intro {
+      margin: auto;
+      text-align: center;
+   }
+   
+   .wrap1 {
+      display: flex;
+   }
+   
+   .ignore {
+      flex: 1;
+   }
+   
+   nav {
+      flex: 1;
+   }
+   
+   section {
+      display: flex;
+   }
+   
+   .invmed {
+      visibility: collapse;
+      font-size: 0pt;
+   }
+   
+   .Name {
+      flex: 1;
+   }
+   
+   .skills {
+      flex: 1;
+   }
+   
+   .contacts {
+      flex: 1;
+   }
+   
+   .address {
+      flex: 1;
+   }
+}
